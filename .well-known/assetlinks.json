@@ -1,6 +1,8 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.elieserjr7_boop.twa",
@@ -10,7 +12,9 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.elieserjr7_boop.appbiblia",
@@ -20,12 +24,26 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.elieserjr7_boop.twa",
       "sha256_cert_fingerprints": [
         "A5:5A:A3:8C:11:BB:27:8F:85:1F:A6:3F:00:CD:A0:E8:04:F5:EA:F6:63:0A:9C:F6:AA:E7:21:31:E6:89:2D:7B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.elieserjr7_boop.twa",
+      "sha256_cert_fingerprints": [
+        "EC:CF:30:A7:A5:70:9F:15:14:61:B2:11:C2:59:CF:BE:F6:4E:8F:CA:06:A8:90:09:D1:0A:29:69:C5:22:FF:9C"
       ]
     }
   }
